@@ -10,6 +10,30 @@ Welcome to estc-parser
 |
 | Currently if a researcher queries the short title catalog for a specific term, all results are only exportable as an *unstructured .html* file without table tags present. This project aims to simply an otherwise manual workflow by allowing the researcher to convert .html extracts into an *actionable* tabular .csv format.
 
+
+Quickstart
+----------
+Supports Python >= 3.7.0
+
+1). Place raw .html extract(s) in ./input_html
+2a). **Poetry Usage **
+
+If you have poetry installed on your system, estc-parser can be installed via `Poetry
+<https://python-poetry.org/>`_,
+
+.. code-block:: console
+    $ cd estc-parser
+    $ poetry install
+    $ poetry run chewfiles
+
+2b). For a vanilla Python install
+.. code-block:: console
+    $ cd estc-parser
+    $ pip install -r requirements.txt
+    $ python3 estc_parser/cli.py
+
+3). Find .csv file with tabular results in ./ouput
+
 Example Query
 *************
 After submitting a query a researcher can export results using the Email/print/save button highlighted below.
@@ -20,7 +44,7 @@ After submitting a query a researcher can export results using the Email/print/s
 
 Example Raw Export
 ******************
-Here is a sample of the raw unstructured .html export from our estc query. 
+Here is a sample of the raw unstructured .html export from our estc query.
 
 .. image:: ./static/estc_raw.png
     :width: 200pt

@@ -12,5 +12,5 @@ Currently if a researcher queries the short title catalog for a specific term, a
 
 Export Menu
 ***********
-.. image:: ../static/chair.png
+.. image:: ./static/chair.png
     :width: 200pt

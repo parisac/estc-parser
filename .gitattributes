@@ -1,1 +1,1 @@
-tests/sample_input/*.html
+*.html linguist-language=python

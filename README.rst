@@ -4,6 +4,9 @@
 
 Welcome to estc-parser
 ######################
+.. image:: ./static/estc.png
+    width: 200pt
+    height: 50pt
 
 | This project was created to help academics and researchers more easily harvest book meta-data from the
 |    `British Library English Short Title Catalogue "ESTC" <http://estc.bl.uk/F/QK6AUB9LGJYDXNE3FBT5KCHIDLR7KN7UTPFJKUCVH11FSCBCGQ-00698?func=file&file_name=find-b&local_base=BLL06>`_
@@ -36,7 +39,7 @@ estc-parser can be installed and run via `Poetry
 .. code-block:: console
 
     cd estc-parser
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
     python3 estc_parser/cli.py
 
 **Grab Outputs**

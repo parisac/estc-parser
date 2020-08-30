@@ -1,10 +1,12 @@
 import click
 
-from estc_parser.parser import files2csv
-from estc_parser.utils.config import INPUT_PATH
+from .parser import files2csv
+from .utils.config import INPUT_PATH
+from .utils.logtime import logger
 
 
 def main():
+    logger.info("Starting to process files:")
     files2csv(INPUT_PATH)
 
 

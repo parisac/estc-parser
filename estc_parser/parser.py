@@ -3,8 +3,8 @@ from functools import partial
 import pandas as pd
 import glob
 
-from estc_parser.utils.logtime import timed
-from estc_parser.utils.config import OUTPUT_PATH
+from .utils.logtime import timed, logger
+from .utils.config import OUTPUT_PATH
 
 
 @timed
@@ -90,4 +90,6 @@ def files2csv(path: str):
 
     files = glob.glob(f"{path}*.html")
     df = pd.concat([_file2df(file) for file in files])
+    print(df.head(n=5))
+    logger.info("saving to ./output/results.csv")
     df.to_csv(f"{OUTPUT_PATH}results.csv", index=False)

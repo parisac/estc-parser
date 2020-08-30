@@ -14,3 +14,4 @@ Export Menu
 ***********
 .. image:: ./static/chair.png
     :width: 200pt
+    :height: 100pt

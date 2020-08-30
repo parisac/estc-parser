@@ -41,7 +41,7 @@ estc-parser can be installed and run via `Poetry
 
 **Grab Outputs**
 *******************
-Find .csv file with tabular results in `./output`
+Find .csv file with tabular results in `./output_csv`
 
 Example Query
 *************

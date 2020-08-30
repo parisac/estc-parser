@@ -1,2 +1,2 @@
-OUTPUT_PATH = "../output"
-INPUT_PATH = "../input_html"
+OUTPUT_PATH = "./output/"
+INPUT_PATH = "./input_html/"

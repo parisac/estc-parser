@@ -3,8 +3,8 @@ from functools import partial
 import pandas as pd
 import glob
 
-from .utils.logtime import timed
-from .utils.config import OUTPUT_PATH
+from estc_parser.utils.logtime import timed
+from estc_parser.utils.config import OUTPUT_PATH
 
 
 @timed

@@ -15,11 +15,11 @@ Quickstart
 ==========
 Supports Python >= 3.7.0
 
-**Step 1**
+**Dump.html extracts**
 **********
 Place raw .html extract(s) in `./input_html`
 
-**Step 2a. Poetry Usage**
+**Poetry Usage**
 *************************
 estc-parser can be installed and run via `Poetry
 <https://python-poetry.org/>`_,
@@ -30,7 +30,7 @@ estc-parser can be installed and run via `Poetry
     poetry install
     poetry run chewfiles
 
-**2b. Vanilla Python Usage**
+**Vanilla Python Usage**
 ****************************
 
 .. code-block:: console
@@ -39,7 +39,7 @@ estc-parser can be installed and run via `Poetry
     pip install -r requirements.txt
     python3 estc_parser/cli.py
 
-**3. Grab Outputs**
+**Grab Outputs**
 *******************
 Find .csv file with tabular results in `./output`
 

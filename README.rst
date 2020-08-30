@@ -20,7 +20,7 @@ After submitting a query a researcher can export results using the Email/print/s
 
 Example Raw Export
 ******************
-Here is a sample of the raw unstructured .html export from a estc query
+Here is a sample of the raw unstructured .html export from our estc query. 
 
 .. image:: ./static/estc_raw.png
     :width: 200pt
@@ -28,7 +28,7 @@ Here is a sample of the raw unstructured .html export from a estc query
 
 Transformed .csv Export via estc-parser
 ***************************************
-Here we see the output
+Here we see the output of running the unstructured html above through estc-parser.
 
 .. image:: ./static/tabular_csv.png
     :width: 200pt

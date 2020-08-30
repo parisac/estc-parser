@@ -22,12 +22,14 @@ If you have poetry installed on your system, estc-parser can be installed via `P
 <https://python-poetry.org/>`_,
 
 .. code-block:: console
+
     $ cd estc-parser
     $ poetry install
     $ poetry run chewfiles
 
 2b). For a vanilla Python install
 .. code-block:: console
+
     $ cd estc-parser
     $ pip install -r requirements.txt
     $ python3 estc_parser/cli.py

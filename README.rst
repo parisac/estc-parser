@@ -1,10 +1,5 @@
-
 .. image:: https://travis-ci.com/parisac/estc-parser.svg?branch=master
     :target: https://travis-ci.com/parisac/estc-parser
-   :width: 45%
-
-.. image:: https://img.shields.io/badge/license-Unlicense-blue.svg
-   :width: 45%
 
 
 Welcome to estc-parser

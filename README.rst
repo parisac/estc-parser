@@ -1,7 +1,6 @@
 .. image:: https://travis-ci.com/parisac/estc-parser.svg?branch=master
     :target: https://travis-ci.com/parisac/estc-parser
 
-
 Welcome to estc-parser
 ######################
 .. image:: ./static/estc.png

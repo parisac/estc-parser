@@ -69,7 +69,8 @@ def _file2df(file_path: str) -> pd.DataFrame:
     return pd.DataFrame(df_values)
 
 
-def files2csv(path: str):
+@timed
+def _files2df(path: str):
     """
     Converts multiple html files to DataFrame with shape(n, 4)
     Columns Names:
@@ -84,12 +85,35 @@ def files2csv(path: str):
 
     Returns
     -------
-    df.csv : pd.DataFrame
+    df : pd.DataFrame
         Cleaned-up output dataframe with shape (n, 4) as csv file
     """
 
     files = glob.glob(f"{path}*.html")
-    df = pd.concat([_file2df(file) for file in files])
+    return pd.concat([_file2df(file) for file in files])
+
+
+@timed
+def files2csv(path: str):
+    """
+    Converts multiple html files to CSV with shape(n, 4)
+    Columns Names:
+                    Title,
+                    Author,
+                    Pub_Info,
+                    Description
+    Parameters
+    ----------
+    path : str
+        root dir path for html files
+
+    Returns
+    -------
+    df.to_csv:
+        Cleaned-up output dataframe with shape (n, 4) as csv file
+    """
+
+    df = _files2df(path)
     print(df.head(n=5))
     logger.info("saving to ./output/results.csv")
     df.to_csv(f"{OUTPUT_PATH}results.csv", index=False)

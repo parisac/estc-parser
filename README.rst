@@ -8,7 +8,7 @@ Welcome to estc-parser
     :height: 50pt
 
 | This project was created to help academics and researchers more easily harvest book meta-data from the
-|    `British Library English Short Title Catalogue "ESTC" <http://estc.bl.uk/F/QK6AUB9LGJYDXNE3FBT5KCHIDLR7KN7UTPFJKUCVH11FSCBCGQ-00698?func=file&file_name=find-b&local_base=BLL06>`_
+|    `British Library English Short Title Catalogue "ESTC" <http://estc.bl.uk/F/?func=file&file_name=login-bl-estc>`_
 |
 | Currently if a researcher queries the short title catalog for a specific term, all results are only exportable as an *unstructured .html* file without table tags present. This project aims to simply an otherwise manual workflow by allowing the researcher to convert .html extracts into an *actionable* tabular .csv format.
 
